@@ -1,0 +1,16 @@
+// pgcd.facile
+// Exercice 10 : calcul du Plus Grand Commun Diviseur
+// Algorithme d'Euclide par soustractions successives
+
+read a;
+read b;
+
+while a # b do
+    if a > b then
+        a := a - b;
+    else
+        b := b - a;
+    endif
+endwhile
+
+print a;

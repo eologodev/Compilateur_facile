@@ -1,0 +1,6 @@
+// test_base.facile
+// Test lecture, affectation, addition, ecriture
+read a;
+read b;
+c := a + b;
+print c;
